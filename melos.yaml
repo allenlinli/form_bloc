@@ -2,8 +2,8 @@ name: form_bloc_melos
 
 packages:
   - form_bloc_web
-  - packages/flutter_form_bloc
-  - packages/form_bloc
+  - packages/flutter_form_bloc_allenlinli
+  - packages/form_bloc_allenlinli
 
 scripts:
   analyze:
