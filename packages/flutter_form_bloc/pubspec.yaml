@@ -4,7 +4,6 @@ version: 0.32.0
 homepage: https://github.com/allenlinli/form_bloc/tree/master/packages/flutter_form_bloc
 repository: https://github.com/allenlinli/form_bloc/tree/master/packages/flutter_form_bloc
 issue_tracker: https://github.com/allenlinli/form_bloc/issues
-publish_to: none
 
 environment:
   sdk: ">=2.12.0 <4.0.0"
