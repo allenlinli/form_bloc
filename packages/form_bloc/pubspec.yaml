@@ -1,4 +1,4 @@
-name: form_bloc
+name: form_bloc_allenlinli
 description: 'Easy Form State Management using BLoC pattern. Separate the Form State and Business Logic from the User Interface. Async Validation, Progress, Dynamic fields, and more.'
 version: 0.32.0
 homepage: 'https://github.com/allenlinli/form_bloc/tree/master/packages/form_bloc'
