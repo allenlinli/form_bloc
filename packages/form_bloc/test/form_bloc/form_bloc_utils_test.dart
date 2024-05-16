@@ -1,5 +1,5 @@
-import 'package:form_bloc/form_bloc.dart';
-import 'package:form_bloc/src/blocs/field/field_bloc.dart';
+import 'package:form_bloc_allenlinli/form_bloc.dart';
+import 'package:form_bloc_allenlinli/src/blocs/field/field_bloc.dart';
 import 'package:test/test.dart';
 
 import '../utils/states.dart';

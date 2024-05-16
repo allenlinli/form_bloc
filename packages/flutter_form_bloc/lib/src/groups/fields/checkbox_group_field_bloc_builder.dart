@@ -6,7 +6,7 @@ import 'package:flutter_form_bloc/src/groups/widgets/item_group_tile.dart';
 import 'package:flutter_form_bloc/src/theme/field_theme_resolver.dart';
 import 'package:flutter_form_bloc/src/theme/form_bloc_theme.dart';
 import 'package:flutter_form_bloc/src/utils/utils.dart';
-import 'package:form_bloc/form_bloc.dart';
+import 'package:form_bloc_allenlinli/form_bloc.dart';
 
 /// A material design checkboxes.
 class CheckboxGroupFieldBlocBuilder<Value> extends StatelessWidget {
