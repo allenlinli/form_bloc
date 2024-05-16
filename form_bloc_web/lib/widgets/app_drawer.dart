@@ -248,7 +248,7 @@ class _AppDrawerState extends State<AppDrawer> with RouteAware {
   }
 
   _launchGitHubURL() async {
-    const url = 'https://github.com/GiancarloCode/form_bloc';
+    const url = 'https://github.com/allenlinli/form_bloc';
     if (await canLaunch(url)) {
       await launch(url);
     }

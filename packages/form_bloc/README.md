@@ -2,13 +2,13 @@
 
 | Package                                                                            | Pub                                                                                                    |
 | ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
-| [form_bloc](https://github.com/GiancarloCode/form_bloc/tree/master/packages/form_bloc)                 | [![pub package](https://img.shields.io/pub/v/form_bloc.svg)](https://pub.dev/packages/form_bloc)                 |
-| [flutter_form_bloc](https://github.com/GiancarloCode/form_bloc/tree/master/packages/flutter_form_bloc)                 | [![pub package](https://img.shields.io/pub/v/flutter_form_bloc.svg)](https://pub.dev/packages/flutter_form_bloc)
+| [form_bloc](https://github.com/allenlinli/form_bloc/tree/master/packages/form_bloc)                 | [![pub package](https://img.shields.io/pub/v/form_bloc.svg)](https://pub.dev/packages/form_bloc)                 |
+| [flutter_form_bloc](https://github.com/allenlinli/form_bloc/tree/master/packages/flutter_form_bloc)                 | [![pub package](https://img.shields.io/pub/v/flutter_form_bloc.svg)](https://pub.dev/packages/flutter_form_bloc)
 
 
 Easy Form State Management using BLoC pattern. Separate the Form State and Business Logic from the User Interface.
 
-# [🔥👉 Documentation and Tutorials 👈🔥](https://giancarlocode.github.io/form_bloc/)
+# [🔥👉 Documentation and Tutorials 👈🔥](https://allenlinli.github.io/form_bloc/)
 
 
 - [x] Synchronous Field Validation
@@ -36,34 +36,34 @@ Easy Form State Management using BLoC pattern. Separate the Form State and Busin
         <tr>
             <td> 
                 <a>
-                    <img src="https://raw.githubusercontent.com/GiancarloCode/form_bloc/master/screenshots/form_bloc1.gif" width="230"/>
+                    <img src="https://raw.githubusercontent.com/allenlinli/form_bloc/master/screenshots/form_bloc1.gif" width="230"/>
                 </a>
             </td>    
             <td>   
                 <a>
-                    <img src="https://raw.githubusercontent.com/GiancarloCode/form_bloc/master/screenshots/form_bloc2.gif" width="230"/>                   
+                    <img src="https://raw.githubusercontent.com/allenlinli/form_bloc/master/screenshots/form_bloc2.gif" width="230"/>                   
                 </a>
             </td>
              <td>   
                 <a>
-                    <img src="https://raw.githubusercontent.com/GiancarloCode/form_bloc/master/screenshots/form_bloc3.gif" width="230"/>                   
+                    <img src="https://raw.githubusercontent.com/allenlinli/form_bloc/master/screenshots/form_bloc3.gif" width="230"/>                   
                 </a>
             </td>        
         </tr>
         <tr>
             <td> 
                 <a>
-                    <img src="https://raw.githubusercontent.com/GiancarloCode/form_bloc/master/screenshots/form_bloc4.gif" width="230"/>
+                    <img src="https://raw.githubusercontent.com/allenlinli/form_bloc/master/screenshots/form_bloc4.gif" width="230"/>
                 </a>
             </td>    
             <td>   
                 <a>
-                    <img src="https://raw.githubusercontent.com/GiancarloCode/form_bloc/master/screenshots/form_bloc5.gif" width="230"/>                   
+                    <img src="https://raw.githubusercontent.com/allenlinli/form_bloc/master/screenshots/form_bloc5.gif" width="230"/>                   
                 </a>
             </td>
             <td>   
                 <a>
-                    <img src="https://raw.githubusercontent.com/GiancarloCode/form_bloc/master/screenshots/form_bloc6.gif" width="230"/>                   
+                    <img src="https://raw.githubusercontent.com/allenlinli/form_bloc/master/screenshots/form_bloc6.gif" width="230"/>                   
                 </a>
             </td>            
         </tr>
