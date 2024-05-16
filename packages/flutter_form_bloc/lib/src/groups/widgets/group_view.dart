@@ -1,6 +1,6 @@
 import 'package:collection/collection.dart';
 import 'package:flutter/widgets.dart';
-import 'package:flutter_form_bloc/src/utils/to_string.dart';
+import 'package:flutter_form_bloc_allenlinli/src/utils/to_string.dart';
 
 /// Base class for the style of [GroupView]
 class GroupStyle {

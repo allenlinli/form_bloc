@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_form_bloc/flutter_form_bloc.dart';
+import 'package:flutter_form_bloc_allenlinli/flutter_form_bloc.dart';
 
 void main() => runApp(const App());
 
@@ -170,7 +170,8 @@ class ConditionalFieldsForm extends StatelessWidget {
                                 FieldBlocBuilderControlAffinity.trailing,
                             body: Container(
                               alignment: Alignment.center,
-                              child: const Text('Do you want to see a secret field?'),
+                              child: const Text(
+                                  'Do you want to see a secret field?'),
                             ),
                           ),
                         ),
@@ -249,7 +250,8 @@ class SuccessScreen extends StatelessWidget {
             const SizedBox(height: 10),
             ElevatedButton.icon(
               onPressed: () => Navigator.of(context).pushReplacement(
-                  MaterialPageRoute(builder: (_) => const ConditionalFieldsForm())),
+                  MaterialPageRoute(
+                      builder: (_) => const ConditionalFieldsForm())),
               icon: const Icon(Icons.replay),
               label: const Text('AGAIN'),
             ),

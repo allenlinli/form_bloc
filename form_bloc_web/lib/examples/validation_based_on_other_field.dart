@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_form_bloc/flutter_form_bloc.dart';
+import 'package:flutter_form_bloc_allenlinli/flutter_form_bloc.dart';
 
 void main() => runApp(const App());
 
@@ -74,7 +74,8 @@ class ValidationBasedOnOtherFieldForm extends StatelessWidget {
 
           return Scaffold(
             resizeToAvoidBottomInset: false,
-            appBar: AppBar(title: const Text('Validation based on other field')),
+            appBar:
+                AppBar(title: const Text('Validation based on other field')),
             body: FormBlocListener<ValidationBasedOnOtherFieldFormBloc, String,
                 String>(
               onSubmitting: (context, state) {

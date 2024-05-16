@@ -1,7 +1,7 @@
 import 'dart:io';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_form_bloc/flutter_form_bloc.dart';
+import 'package:flutter_form_bloc_allenlinli/flutter_form_bloc.dart';
 
 void main() {
   runApp(const App());
@@ -154,13 +154,13 @@ class AllFieldsForm extends StatelessWidget {
               onSuccess: (context, state) {
                 LoadingDialog.hide(context);
 
-                Navigator.of(context)
-                    .pushReplacement(MaterialPageRoute(builder: (_) => const SuccessScreen()));
+                Navigator.of(context).pushReplacement(
+                    MaterialPageRoute(builder: (_) => const SuccessScreen()));
               },
               onFailure: (context, state) {
                 LoadingDialog.hide(context);
-                ScaffoldMessenger.of(context)
-                    .showSnackBar(SnackBar(content: Text(state.failureResponse!)));
+                ScaffoldMessenger.of(context).showSnackBar(
+                    SnackBar(content: Text(state.failureResponse!)));
               },
               child: ScrollableFormBlocManager(
                 formBloc: formBloc,
@@ -251,11 +251,13 @@ class AllFieldsForm extends StatelessWidget {
                       Row(
                         children: [
                           IconButton(
-                            onPressed: () => formBloc.addFieldBloc(fieldBloc: formBloc.select1),
+                            onPressed: () => formBloc.addFieldBloc(
+                                fieldBloc: formBloc.select1),
                             icon: const Icon(Icons.add),
                           ),
                           IconButton(
-                            onPressed: () => formBloc.removeFieldBloc(fieldBloc: formBloc.select1),
+                            onPressed: () => formBloc.removeFieldBloc(
+                                fieldBloc: formBloc.select1),
                             icon: const Icon(Icons.delete),
                           ),
                         ],
@@ -267,24 +269,28 @@ class AllFieldsForm extends StatelessWidget {
                       CheckboxFieldBlocBuilder(
                         booleanFieldBloc: formBloc.boolean1,
                         body: const Text('CheckboxFieldBlocBuilder trailing'),
-                        controlAffinity: FieldBlocBuilderControlAffinity.trailing,
+                        controlAffinity:
+                            FieldBlocBuilderControlAffinity.trailing,
                       ),
                       SliderFieldBlocBuilder(
                         inputFieldBloc: formBloc.double1,
                         divisions: 10,
-                        labelBuilder: (context, value) => value.toStringAsFixed(2),
+                        labelBuilder: (context, value) =>
+                            value.toStringAsFixed(2),
                       ),
                       SliderFieldBlocBuilder(
                         inputFieldBloc: formBloc.double1,
                         divisions: 10,
-                        labelBuilder: (context, value) => value.toStringAsFixed(2),
+                        labelBuilder: (context, value) =>
+                            value.toStringAsFixed(2),
                         activeColor: Colors.red,
                         inactiveColor: Colors.green,
                       ),
                       SliderFieldBlocBuilder(
                         inputFieldBloc: formBloc.double1,
                         divisions: 10,
-                        labelBuilder: (context, value) => value.toStringAsFixed(2),
+                        labelBuilder: (context, value) =>
+                            value.toStringAsFixed(2),
                       ),
                       ChoiceChipFieldBlocBuilder<String>(
                         selectFieldBloc: formBloc.select2,
@@ -365,8 +371,8 @@ class SuccessScreen extends StatelessWidget {
             ),
             const SizedBox(height: 10),
             ElevatedButton.icon(
-              onPressed: () => Navigator.of(context)
-                  .pushReplacement(MaterialPageRoute(builder: (_) => const AllFieldsForm())),
+              onPressed: () => Navigator.of(context).pushReplacement(
+                  MaterialPageRoute(builder: (_) => const AllFieldsForm())),
               icon: const Icon(Icons.replay),
               label: const Text('AGAIN'),
             ),

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_form_bloc/flutter_form_bloc.dart';
+import 'package:flutter_form_bloc_allenlinli/flutter_form_bloc.dart';
 
 void main() => runApp(const App());
 
@@ -143,13 +143,14 @@ class _WizardFormState extends State<WizardForm> {
               body: SafeArea(
                 child: FormBlocListener<WizardFormBloc, String, String>(
                   onSubmitting: (context, state) => LoadingDialog.show(context),
-                  onSubmissionFailed: (context, state) => LoadingDialog.hide(context),
+                  onSubmissionFailed: (context, state) =>
+                      LoadingDialog.hide(context),
                   onSuccess: (context, state) {
                     LoadingDialog.hide(context);
 
                     if (state.stepCompleted == state.lastStep) {
-                      Navigator.of(context).pushReplacement(
-                          MaterialPageRoute(builder: (_) => const SuccessScreen()));
+                      Navigator.of(context).pushReplacement(MaterialPageRoute(
+                          builder: (_) => const SuccessScreen()));
                     }
                   },
                   onFailure: (context, state) {

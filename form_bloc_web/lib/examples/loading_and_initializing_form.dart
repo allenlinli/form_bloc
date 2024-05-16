@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_form_bloc/flutter_form_bloc.dart';
+import 'package:flutter_form_bloc_allenlinli/flutter_form_bloc.dart';
 
 void main() => runApp(const App());
 
@@ -116,10 +116,12 @@ class LoadingForm extends StatelessWidget {
                         child: SingleChildScrollView(
                           child: Column(
                             children: <Widget>[
-                              const Icon(Icons.sentiment_dissatisfied, size: 70),
+                              const Icon(Icons.sentiment_dissatisfied,
+                                  size: 70),
                               const SizedBox(height: 20),
                               Container(
-                                padding: const EdgeInsets.symmetric(horizontal: 12),
+                                padding:
+                                    const EdgeInsets.symmetric(horizontal: 12),
                                 alignment: Alignment.center,
                                 child: Text(
                                   state.failureResponse ??

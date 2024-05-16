@@ -1,8 +1,8 @@
 import 'package:equatable/equatable.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_form_bloc/src/theme/form_bloc_theme.dart';
-import 'package:flutter_form_bloc/src/theme/material_states.dart';
-import 'package:flutter_form_bloc/src/utils/to_string.dart';
+import 'package:flutter_form_bloc_allenlinli/src/theme/form_bloc_theme.dart';
+import 'package:flutter_form_bloc_allenlinli/src/theme/material_states.dart';
+import 'package:flutter_form_bloc_allenlinli/src/utils/to_string.dart';
 
 /// Resolves looking for the appropriate value to use in the widget
 class FieldThemeResolver {

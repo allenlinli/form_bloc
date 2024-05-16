@@ -1,12 +1,12 @@
 import 'package:equatable/equatable.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_form_bloc/src/slider/slider_field_bloc_builder.dart';
-import 'package:flutter_form_bloc/src/theme/field_theme_resolver.dart';
-import 'package:flutter_form_bloc/src/theme/form_bloc_theme_provider.dart';
-import 'package:flutter_form_bloc/src/theme/form_config.dart';
-import 'package:flutter_form_bloc/src/theme/suffix_button_themes.dart';
-import 'package:flutter_form_bloc/src/utils/field_bloc_builder_control_affinity.dart';
-import 'package:flutter_form_bloc/src/utils/to_string.dart';
+import 'package:flutter_form_bloc_allenlinli/src/slider/slider_field_bloc_builder.dart';
+import 'package:flutter_form_bloc_allenlinli/src/theme/field_theme_resolver.dart';
+import 'package:flutter_form_bloc_allenlinli/src/theme/form_bloc_theme_provider.dart';
+import 'package:flutter_form_bloc_allenlinli/src/theme/form_config.dart';
+import 'package:flutter_form_bloc_allenlinli/src/theme/suffix_button_themes.dart';
+import 'package:flutter_form_bloc_allenlinli/src/utils/field_bloc_builder_control_affinity.dart';
+import 'package:flutter_form_bloc_allenlinli/src/utils/to_string.dart';
 
 class FormTheme extends Equatable {
   /// If [FieldTheme.textStyle] is null this value is used
