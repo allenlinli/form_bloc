@@ -2,7 +2,7 @@
 
 | Package                                                                            | Pub                                                                                                    |
 | ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
-| [form_bloc](https://github.com/allenlinli/form_bloc/tree/master/packages/form_bloc)                 | [![pub package](https://img.shields.io/pub/v/form_bloc.svg)](https://pub.dev/packages/form_bloc)                 |
+| [form_bloc](https://github.com/allenlinli/form_bloc/tree/master/packages/form_bloc)                 | [![pub package](https://img.shields.io/pub/v/form_bloc.svg)](https://pub.dev/packages/form_bloc_allenlinli)                 |
 | [flutter_form_bloc_allenlinli](https://github.com/allenlinli/form_bloc/tree/master/packages/flutter_form_bloc_allenlinli)                 | [![pub package](https://img.shields.io/pub/v/flutter_form_bloc_allenlinli.svg)](https://pub.dev/packages/flutter_form_bloc_allenlinli)       
 
 
