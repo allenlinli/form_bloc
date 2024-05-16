@@ -1,7 +1,7 @@
 library flutter_form_bloc;
 
 export 'package:flutter_bloc/flutter_bloc.dart';
-export 'package:form_bloc/form_bloc.dart';
+export 'package:form_bloc_allenlinli/form_bloc_allenlinli.dart';
 
 export 'src/checkbox_field_bloc_builder.dart';
 export 'src/chip/chip_field_item_builder.dart';

@@ -1,7 +1,7 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_form_bloc_allenlinli/flutter_form_bloc.dart';
+import 'package:flutter_form_bloc_allenlinli/flutter_form_bloc_allenlinli.dart';
 import 'package:flutter_form_bloc_allenlinli/src/flutter_typeahead.dart';
 import 'package:flutter_form_bloc_allenlinli/src/theme/field_theme_resolver.dart';
 import 'package:flutter_form_bloc_allenlinli/src/utils/utils.dart';
@@ -9,7 +9,7 @@ import 'package:flutter_form_bloc_allenlinli/src/utils/utils.dart';
 export 'package:flutter/services.dart'
     show TextInputType, TextInputAction, TextCapitalization;
 export 'package:flutter/widgets.dart' show EditableText;
-export 'package:flutter_form_bloc/src/flutter_typeahead.dart'
+export 'package:flutter_form_bloc_allenlinli/src/flutter_typeahead.dart'
     show SuggestionsBoxDecoration;
 
 const double _kMenuItemHeight = 48.0;

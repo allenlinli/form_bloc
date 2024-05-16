@@ -5,7 +5,7 @@ import 'package:flutter_form_bloc_allenlinli/src/flutter_typeahead.dart';
 import 'package:flutter_form_bloc_allenlinli/src/theme/field_theme_resolver.dart';
 import 'package:flutter_form_bloc_allenlinli/src/theme/form_bloc_theme.dart';
 import 'package:flutter_form_bloc_allenlinli/src/utils/utils.dart';
-import 'package:form_bloc_allenlinli/form_bloc.dart';
+import 'package:form_bloc_allenlinli/form_bloc_allenlinli.dart';
 
 /// A material design dropdown.
 class DropdownFieldBlocBuilder<Value> extends StatelessWidget {

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_form_bloc_allenlinli/src/utils/functions.dart';
-import 'package:form_bloc_allenlinli/form_bloc.dart';
+import 'package:form_bloc_allenlinli/form_bloc_allenlinli.dart';
 
 typedef BlocChildBuilder<FieldBlocState> = Widget Function(
     BuildContext context, FieldBlocState state, Widget child);
