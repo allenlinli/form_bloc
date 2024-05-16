@@ -1,3 +1,9 @@
+# 0.32.0
+
+* Update dependencies: intl
+* Update gradle version to 7.6.1
+
+
 # 0.31.0
 
 * Update sdk constraints to `>=2.12.0 <4.0.0`
