@@ -1,3 +1,6 @@
+# 0.33.0
+
+* Update dependencies: form_bloc
 # 0.32.0
 
 * Update dependencies: intl
